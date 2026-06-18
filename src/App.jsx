@@ -145,15 +145,14 @@ function App() {
           </p>
 
           <div className="hero-buttons">
-            <a href="/resume.pdf" download className="btn primary">
-              <FaDownload /> Download Resume
-            </a>
+  <a href="/my-portfolio/resume.pdf" download className="btn primary">
+    <FaDownload /> Download Resume
+  </a>
 
-            <a href="#projects" className="btn outline">
-              View My Work <FaArrowRight />
-            </a>
-          </div>
-
+  <a href="#projects" className="btn outline">
+    View My Work <FaArrowRight />
+  </a>
+</div>
           <div className="socials">
             <a href="https://github.com/Ahamedshafeel" target="_blank">
               <FaGithub />
@@ -169,8 +168,8 @@ function App() {
 
         <div className="hero-right">
           <div className="profile-ring">
-            <img src="/profile.png" alt="Ahamed Shafeel" />
-          </div>
+  <img src="/my-portfolio/profile.png" alt="Ahamed Shafeel" />
+</div>
         </div>
       </section>
 
