@@ -145,9 +145,13 @@ function App() {
           </p>
 
           <div className="hero-buttons">
-  <a href="/my-portfolio/resume.pdf" download className="btn primary">
-    <FaDownload /> Download Resume
-  </a>
+ <a
+  href={`${import.meta.env.BASE_URL}resume.pdf`}
+  download
+  className="btn primary"
+>
+  <FaDownload /> Download Resume
+</a>
 
   <a href="#projects" className="btn outline">
     View My Work <FaArrowRight />
@@ -168,7 +172,10 @@ function App() {
 
         <div className="hero-right">
           <div className="profile-ring">
-  <img src="/my-portfolio/profile.png" alt="Ahamed Shafeel" />
+            <img
+  src={`${import.meta.env.BASE_URL}profile.png`}
+  alt="Ahamed Shafeel"
+/>
 </div>
         </div>
       </section>
